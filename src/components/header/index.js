@@ -10,6 +10,7 @@ import {
   AirplaneIcon,
   CompassIcon,
   HeartIcon,
+  PersonIcon,
 } from "./styles";
 import { FiSearch } from "react-icons/fi";
 import { FaRegPaperPlane } from "react-icons/fa";
@@ -21,15 +22,19 @@ const Header = () => {
     <Container>
       <Logo>
         <LogoImg>
-          <img
-            src={require("../../media/instagram-logo.png")}
-            alt=""
-            width="25px"
-          />
+          <button>
+            <img
+              src={require("../../media/instagram-logo.png")}
+              alt=""
+              width="25px"
+            />
+          </button>
         </LogoImg>
 
         <LogoWritten>
-          <img src={require("../../media/logo.png")} alt="" width="105px" />
+          <button>
+            <img src={require("../../media/logo.png")} alt="" width="105px" />
+          </button>
         </LogoWritten>
       </Logo>
 
@@ -44,15 +49,25 @@ const Header = () => {
 
       <Icons>
         <AirplaneIcon>
-          <FaRegPaperPlane size={20} />
+          <button>
+            <FaRegPaperPlane size={20} />
+          </button>
         </AirplaneIcon>
         <CompassIcon>
-          <AiOutlineCompass size={25} />
+          <button>
+            <AiOutlineCompass size={25} />
+          </button>
         </CompassIcon>
         <HeartIcon>
-          <AiOutlineHeart size={25} />
+          <button>
+            <AiOutlineHeart size={25} />
+          </button>
         </HeartIcon>
-        <BsPerson size={25} />
+        <PersonIcon>
+          <button>
+            <BsPerson size={25} />
+          </button>
+        </PersonIcon>
       </Icons>
     </Container>
   );

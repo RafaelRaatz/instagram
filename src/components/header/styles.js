@@ -11,6 +11,12 @@ export const Container = styled.header`
 export const Logo = styled.header`
   display: flex;
   justify-content: space-between;
+
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
 `;
 
 export const LogoImg = styled.header`
@@ -49,16 +55,25 @@ export const Icons = styled.header`
   display: flex;
   justify-content: space-between;
   margin-left: 200px;
+
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
 `;
 
 export const AirplaneIcon = styled.header`
-  margin-right: 25px;
+  margin-right: 15px;
 `;
 
 export const CompassIcon = styled.header`
-  margin-right: 25px;
+  margin-right: 15px;
 `;
 
 export const HeartIcon = styled.header`
-  margin-right: 25px;
+  margin-right: 15px;
 `;
+
+export const PersonIcon = styled.header`
+margin-right`;
