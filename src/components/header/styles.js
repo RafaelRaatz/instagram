@@ -55,6 +55,7 @@ export const Icons = styled.header`
   display: flex;
   justify-content: space-between;
   margin-left: 200px;
+  margin-top: 2px;
 
   button {
     background: transparent;
@@ -64,15 +65,15 @@ export const Icons = styled.header`
 `;
 
 export const AirplaneIcon = styled.header`
-  margin-right: 15px;
+  margin-right: 20px;
 `;
 
 export const CompassIcon = styled.header`
-  margin-right: 15px;
+  margin-right: 20px;
 `;
 
 export const HeartIcon = styled.header`
-  margin-right: 15px;
+  margin-right: 20px;
 `;
 
 export const PersonIcon = styled.header`
