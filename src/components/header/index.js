@@ -43,7 +43,7 @@ const Header = () => {
           <IconSearch>
             <FiSearch />
           </IconSearch>
-          <input type="text" placeholder="pesquisar" />
+          <input type="text" placeholder="Pesquisar" />
         </form>
       </FormSearch>
 
