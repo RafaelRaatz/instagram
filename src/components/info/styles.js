@@ -8,7 +8,11 @@ export const Container = styled.div`
 
 export const PerfilImg = styled.image`
   margin-right: 30px;
-  border-radius: 50%;
+  img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+  }
 `;
 
 export const InfoArea = styled.div`
@@ -45,11 +49,36 @@ export const SecondInfoLine = styled.div`
 
   p {
     font-size: 17px;
+    margin-right: 25px;
+  }
+
+  h3 {
+    font-size: 17px;
+    margin-right: 5px;
+  }
+`;
+
+export const ThirdInfoLine = styled.div`
+  margin-top: 20px;
+  p {
+    font-size: 17px;
     margin-right: 10px;
   }
 
   h3 {
     font-size: 17px;
     margin-right: 5px;
+  }
+`;
+
+export const StoriesArea = styled.div`
+  margin-top: 70px;
+  display: flex;
+
+  img {
+    margin-left: 50px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
   }
 `;

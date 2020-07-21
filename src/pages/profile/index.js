@@ -7,7 +7,7 @@ const Profile = () => {
   return (
     <div>
       <Header />
-      <hr />
+      <hr color="#d3d3d3" />
       <Container>
         <Info />
       </Container>
