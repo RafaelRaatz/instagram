@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/header";
 import Info from "../../components/info";
 import Menu from "../../components/menu";
+import Footer from "../../components/footer";
 
 import { Container } from "./styles";
 
@@ -14,6 +15,7 @@ const Profile = () => {
         <Info />
         <Menu />
       </Container>
+      <Footer />
     </div>
   );
 };
