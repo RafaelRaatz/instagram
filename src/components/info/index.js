@@ -29,7 +29,7 @@ const Info = () => {
           </FirstInfoLine>
 
           <SecondInfoLine>
-            <h3>7</h3> <p>Publicações</p>
+            <h3>6</h3> <p>Publicações</p>
             <h3>1.000</h3> <p> Seguidores</p>
             <h3>200</h3> <p>Seguindo</p>
           </SecondInfoLine>

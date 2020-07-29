@@ -5,7 +5,7 @@ export const Container = styled.header`
   margin: 0 auto;
   display: flex;
   background-color: white;
-  padding: 10px;
+  padding: 20px;
 `;
 
 export const Logo = styled.header`

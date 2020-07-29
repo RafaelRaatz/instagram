@@ -1,11 +1,11 @@
 import React from "react";
-import Profile from "./pages/profile/index";
 import GlobalStyle from "./styles/global";
+import Routes from "./routes";
 
 const App = () => {
   return (
     <div>
-      <Profile />
+      <Routes />
       <GlobalStyle />
     </div>
   );
