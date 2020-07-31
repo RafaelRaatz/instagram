@@ -50,7 +50,7 @@ const Header = () => {
       <Icons>
         <AirplaneIcon>
           <button>
-            <FaRegPaperPlane size={19} />
+            <FaRegPaperPlane size={20} />
           </button>
         </AirplaneIcon>
         <CompassIcon>
