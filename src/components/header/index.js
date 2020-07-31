@@ -22,19 +22,19 @@ const Header = () => {
     <Container>
       <Logo>
         <LogoImg>
-          <button>
+          <a href="/">
             <img
               src={require("../../media/instagram-logo.png")}
               alt=""
               width="25px"
             />
-          </button>
+          </a>
         </LogoImg>
 
         <LogoWritten>
-          <button>
+          <a href="/">
             <img src={require("../../media/logo.png")} alt="" width="105px" />
-          </button>
+          </a>
         </LogoWritten>
       </Logo>
 
