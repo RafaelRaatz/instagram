@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const Container = styled.header`
+export const HeaderBox = styled.header`
+  border-bottom: 1px solid #dcdcdc;
+`;
+
+export const Container = styled.div`
   width: 950px;
   margin: 0 auto;
   display: flex;
@@ -8,7 +12,7 @@ export const Container = styled.header`
   padding: 20px;
 `;
 
-export const Logo = styled.header`
+export const Logo = styled.div`
   display: flex;
   justify-content: space-between;
 
@@ -19,39 +23,40 @@ export const Logo = styled.header`
   }
 `;
 
-export const LogoImg = styled.header`
+export const LogoImg = styled.div`
   margin-right: 30px;
 `;
 
-export const LogoWritten = styled.header`
+export const LogoWritten = styled.div`
   margin-top: 2px;
 `;
 
-export const FormSearch = styled.header`
+export const FormSearch = styled.form`
+  position: relative;
   display: flex;
   margin-left: 200px;
   margin-top: 2px;
 
   input {
-    width: 110%;
+    width: 200px;
     border-radius: 3px;
     border-color: #dcdcdc;
     border-width: 1px;
     font-size: 14px;
     padding: 4px;
-    text-align: center;
     background-color: rgba(var(--b3f, 250, 250, 250), 1);
+    padding-left: 25px;
   }
 `;
 
-export const IconSearch = styled.header`
+export const IconSearch = styled.div`
   position: absolute;
   color: #b0b0b0;
-  margin-top: 6px;
-  margin-left: 55px;
+  left: 5px;
+  top: 5px;
 `;
 
-export const Icons = styled.header`
+export const Icons = styled.div`
   display: flex;
   justify-content: space-between;
   margin-left: 200px;
@@ -63,17 +68,17 @@ export const Icons = styled.header`
   }
 `;
 
-export const AirplaneIcon = styled.header`
+export const AirplaneIcon = styled.div`
   margin-right: 15px;
 `;
 
-export const CompassIcon = styled.header`
+export const CompassIcon = styled.div`
   margin-right: 15px;
 `;
 
-export const HeartIcon = styled.header`
+export const HeartIcon = styled.div`
   margin-right: 15px;
 `;
 
-export const PersonIcon = styled.header`
+export const PersonIcon = styled.div`
 margin-right`;

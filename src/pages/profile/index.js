@@ -5,7 +5,6 @@ const Profile = () => {
   return (
     <div>
       <Header />
-      <hr />
     </div>
   );
 };
