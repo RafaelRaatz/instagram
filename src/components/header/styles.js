@@ -60,6 +60,7 @@ export const Icons = styled.div`
   display: flex;
   justify-content: space-between;
   margin-left: 200px;
+  margin-top: 2px;
 
   button {
     background: transparent;
@@ -68,16 +69,16 @@ export const Icons = styled.div`
   }
 `;
 
-export const AirplaneIcon = styled.div`
-  margin-right: 15px;
+export const AirplaneIcon = styled.header`
+  margin-right: 20px;
 `;
 
-export const CompassIcon = styled.div`
-  margin-right: 15px;
+export const CompassIcon = styled.header`
+  margin-right: 20px;
 `;
 
-export const HeartIcon = styled.div`
-  margin-right: 15px;
+export const HeartIcon = styled.header`
+  margin-right: 20px;
 `;
 
 export const PersonIcon = styled.div`
