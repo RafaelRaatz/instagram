@@ -9,9 +9,17 @@ export const Container = styled.div`
 `;
 
 export const TextLink = styled.div`
-  display: flex;
+  display: inline;
 
-  p {
+  ul {
+    list-style: none;
+  }
+
+  li {
+    display: inline;
+  }
+
+  a {
     margin-right: 22px;
     font-weight: bold;
     color: #00008b;

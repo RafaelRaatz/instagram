@@ -6,17 +6,41 @@ const Footer = () => {
     <div>
       <Container>
         <TextLink>
-          <p>Sobre</p>
-          <p>Ajuda</p>
-          <p>Imprensa</p>
-          <p>API</p>
-          <p>Carreiras</p>
-          <p>Privacidade</p>
-          <p>Termos</p>
-          <p>Localizações</p>
-          <p>Contas mais relevantes</p>
-          <p>Hashtags</p>
-          <p>Idioma</p>
+          <ul>
+            <li>
+              <a href="a">Sobre</a>
+            </li>
+            <li>
+              <a href="a">Ajuda</a>
+            </li>
+            <li>
+              <a href="a">Impresa</a>
+            </li>
+            <li>
+              <a href="a">API</a>
+            </li>
+            <li>
+              <a href="a">Carreira</a>
+            </li>
+            <li>
+              <a href="a">Privacidade</a>
+            </li>
+            <li>
+              <a href="aa">Termos</a>
+            </li>
+            <li>
+              <a href="aa">Localizações</a>
+            </li>
+            <li>
+              <a href="a">Contas mais relevantes</a>
+            </li>
+            <li>
+              <a href="a">Hashtags</a>
+            </li>
+            <li>
+              <a href="a">Idioma</a>
+            </li>
+          </ul>
         </TextLink>
       </Container>
       <Container>
